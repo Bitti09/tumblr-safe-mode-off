@@ -8,7 +8,7 @@
     "48": "img/icon/icon-48.png"
   },
   "content_scripts": [{
-    "matches": ["https://www.tumblr.com/dashboard/blog/*"],
+    "matches": ["https://www.tumblr.com/blog/view/*"],
     "css": [ "blog.css"],
     "js": ["blog.js"]
   }, {
